@@ -2,7 +2,7 @@ import { useState } from "react";
 
 function ToyForm({ onAddToy }) {
   const [name, setName] = useState("");
-  const = useState("");
+  const [image, setImage] = useState("");
 
   function handleSubmit(e) {
     e.preventDefault();
